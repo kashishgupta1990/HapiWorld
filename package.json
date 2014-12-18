@@ -1,0 +1,8 @@
+{
+  "name": "Hapi-world",
+  "version": "0.0.1",
+  "dependencies": {
+    "hapi": "^8.0.0",
+    "joi": "^5.0.2"
+  }
+}
