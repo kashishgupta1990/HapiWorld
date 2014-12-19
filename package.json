@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "hapi": "^8.0.0",
+    "hapi-swagger": "^0.6.0",
     "joi": "^5.0.2"
   }
 }
