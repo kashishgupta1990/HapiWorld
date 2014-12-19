@@ -6,13 +6,11 @@ server.connection({
     port: 8001
 });
 
-var swaggerOptions = {
-    apiVersion: "0.6.0"
-};
-
 server.register({
     register: require('hapi-swagger'),
-    options: swaggerOptions
+    options: {
+        apiVersion: "0.6.0"
+    }
 }, function (err) {
     if (err) {
         console.log('Error:' + err);
